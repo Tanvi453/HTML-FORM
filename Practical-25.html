@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prectical-25</title>
+    <link rel="icon" href="https://www.seekpng.com/png/detail/188-1882776_form-icon-form-icon-png.png" />
+</head>
+
+<body
+    style="background-image: url(https://images.unsplash.com/photo-1515514555726-139d17f71d33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTc2MzE2fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=420&q=60); display: flex; justify-content: center; background-size: cover;">
+
+    <div style="background-color: rgba(0, 0, 0, 0.5); height: 900px; width: 1400px; border-radius: 50px;">
+
+        <h1
+            style="color: white; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; margin-bottom: 100px; margin-top: 50px;">
+            <u> HTML FORM </u>
+        </h1>
+
+        <div style="display: flex; justify-content: center; gap: 50px;">
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="First Name"><b> First Name: </b></label>
+                <input id="123" type="text" id="First Name" name="First Name" value="" required
+                    placeholder="Enter your First Name" style="height: 30px; width: 400px; border-radius: 10px;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="Middle Name"><b> Middle Name: </b></label>
+                <input type="text" id="Middle Name" name="Middle Name" value="" required
+                    placeholder="Enter your Middle Name" style="height: 30px; width: 400px; border-radius: 10px;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="Last Name"><b> Last Name: </b></label>
+                <input type="text" id="Last Name" name="Last Name" value="" required placeholder="Enter your Last Name"
+                    style="height: 30px; width: 400px; border-radius: 10px;" />
+            </div>
+
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 120px; margin-top: 40px;">
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="Age"><b> Age: </b></label>
+                <input type="number" id="Age" name="Age" value="" placeholder="Enter your Age" required
+                    style="height: 30px; width: 400px; border-radius: 10px;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="DOB"><b> Date of Birth: </b></label>
+                <input type="date" id="DOB" name="DOB" value="" placeholder="Enter your Date of Birth" required
+                    style="height: 30px; width: 400px; border-radius: 10px;" />
+            </div>
+
+            <div
+                style="display: flex; flex-direction: row; color: white; font-size: 130%; margin-top: 30px; gap: 10px;">
+                <label for="gender"><b> Gender: </b></label>
+                <input type="radio" id="Male" name="Gender" value="" />Male
+                <input type="radio" id="Female" name="Gender" value="" />Female
+            </div>
+
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 150px; margin-top: 40px;">
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="Address"><b>Address:</b></label>
+                <input type="text" id="Address" name="Address" value="" placeholder="Enter your Address" required
+                    style="height: 50px; width: 500px; border-radius: 20px;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column;  margin-top: 10px;  color: white; font-size: 130%;">
+                <label for="city"><b> Select City: </b></label>
+                <select id="city" style="height: 30px; width: 300px; border-radius: 10px;">
+                    <option value="Rajkot"> Rajkot </option>
+                    <option value="Gandhinagar"> Gandhinagar </option>
+                    <option value="vadodara"> vadodara </option>
+                    <option value="Ahemdabad"> Ahemdabad </option>
+                    <option value="Navsari"> Navsari </option>
+                    <option value="Jamnagar"> Jamnagar </option>
+                </select>
+            </div>
+
+            <div style="display: flex; flex-direction: column;  margin-top: 10px;  color: white; font-size: 130%;">
+
+                <label for="bloodgroup"><b>Select Bloodgroup:</b></label>
+                <select id="bloodgroup" style="height: 30px; width: 200px; border-radius: 10px;">
+                    <option value="A+"> A+ </option>
+                    <option value="B+"> B+ </option>
+                    <option value="O+"> O+ </option>
+                    <option value="AB+"> AB+ </option>
+                    <option value="A-"> A- </option>
+                    <option value="B-"> B- </option>
+                    <option value="O-"> O- </option>
+                    <option value="AB-"> AB- </option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 150px; margin-top: 40px; ">
+
+            <div
+                style="display: flex; flex-direction: row; margin-top: 20px; color: white; font-size: 150%; gap: 10px; ">
+
+                <label for="cast"> <b> Cast: </b></label>
+                <input type="radio" id="SC" name="cast">SC
+                <input type="radio" id="ST" name="cast">ST
+                <input type="radio" id="OBC" name="cast">OBC
+                <input type="radio" id="GENERAL" name="cast">GENERAL
+            </div>
+
+            <div
+                style="display: flex; flex-direction: row; margin-top: 20px; color: white; font-size: 150%; gap: 10px; ">
+
+                <label for="Fav_language"><b>Choose your Fav_language:</b></label>
+                <input type="checkbox" id="Gujrati" name="fav_language" value="Gujrati">Gujarati
+                <input type="checkbox" id="Hindi" name="fav_language" value="Hindi">Hindi
+                <input type="checkbox" id="English" name="fav_language" value="English">English
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 50px; margin-top: 40px; ">
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+
+                <label for="User Name"><b>User Name:</b></label>
+                <input type="text" id="User Name" name="User Name" value="" placeholder="Enter your User Name"
+                    style="height: 30px; width: 400px; border-radius: 10px;" />
+
+            </div>
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+
+                <label for="E-mail"><b>E-mail Id:</b></label>
+                <input type="text" id="E-mail" name="E-mail" value="" placeholder="Enter your E-mail"
+                    style="height: 30px; width: 400px; border-radius: 10px;" />
+
+            </div>
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+
+                <label for="Phone Number"><b>Phone Number:</b></label>
+                <input type="number" id="Phone Number" name="Phone Number" value="" maxlength="10" placeholder="Enter 10 Digit"
+                    style="height: 30px; width: 400px; border-radius: 10px;" />
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; justify-content: flex-start; gap: 200px; margin-top: 40px;  margin-left: 40px;">
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="password"><b> Password: </b></label>
+                <input type="password" id="password" name="password" value="" placeholder="Enter you Password"
+                    style="height: 30px; width: 500px; border-radius: 10px;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column; color: white; font-size: 130%;">
+                <label for="password"><b>Confirm Password: </b></label>
+                <input type="password" id="password" name="password" value="" placeholder="Enter you Password"
+                    style="height: 30px; width: 500px; border-radius: 10px;" />
+            </div>
+
+        </div>
+
+        <div style=" display: flex; justify-content: center; margin-top: 50px;">
+            <input type="button" value="Submit"
+                style="height: 40px; width: 200px; border-radius: 20px; font-size: 130%; background-color: rgb(56, 56, 56); color: white;" />
+        </div>
+
+    </div>
+<script src="./Prectical-25.js"></script>
+</body>
+
+</html>

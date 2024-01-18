@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML FORM-2</title>
+    <link rel="icon"
+        href="https://img.uxwing.com/wp-content/themes/uxwing/download/web-app-development/online-form-icon.png" />
+</head>
+
+<body
+    style="background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Clean-Picture.jpg);">
+
+    <div style=" color: white; padding: 20px; margin-left: 15px;">
+
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <h1><b><u>HTML FORM-2</u></b></h1>
+        </div>
+
+        <div>
+            <form action="file:///C:/Users/DREAMWORLD/Documents/HTML%20BATCH-1/prectical-13.html">
+
+                <div
+                    style="display: flex; justify-content: center;align-items: center; flex-direction: row; gap: 150px; margin-top: 30px;">
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="First Name"><b>First Name:</b></label>
+                        <input type="text" id="First Name" name="First Name" value=""
+                            placeholder="Enter Your First Name" required
+                            style="height: 30px; width: 600px; border-radius: 20px; " />
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="Last Name"><b>Last Name:</b></label>
+                        <input type="text" id="Last Name" name="Last Name" value="" placeholder="Enter Your Last Name"
+                            required style="height: 30px; width: 600px; border-radius: 20px; " />
+                    </div>
+
+                </div>
+
+                <div
+                    style="display: flex; justify-content: center;align-items: center; flex-direction: row; gap: 260px; margin-top: 50px;">
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="DOB"><b>Date of Birth:</b></label>
+                        <input type="date" id="DOB" name="Dob" value="" placeholder="Date of Birth" required
+                            style="height: 30px; width: 300px; border-radius: 20px; " />
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="age"><b>Age:</b></label>
+                        <input type="number" id="age" name="age" value="" placeholder="Enter Your Age" required
+                            style="height: 30px; width: 300px; border-radius: 20px; " />
+                    </div>
+
+                    <div style="display: flex; flex-direction: row; gap: 10px;">
+
+                        <label for="gender"><b>Gender:</b></label>
+                        <input type="radio" id="Male" name="gender" value="" required />Male
+                        <input type="radio" id="Female" name="gender" value="" required />Female
+                    </div>
+
+                </div>
+
+                <div
+                    style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 50px; gap: 330px; ">
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="E-mail"><b>E-mail:</b></label>
+                        <input type="text" id="E-mail" name="E-mail" value="" placeholder="Enter Your E-mail" required
+                            style="height: 30px; width: 500px; border-radius: 20px; " />
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="mobile number"><b>Mobile Number:</b></label>
+                        <input type="number" id="mobile number" name="mobile number" value=""
+                            placeholder="Enter 10 Digit" required
+                            style="height: 30px; width: 500px; border-radius: 20px; " />
+                    </div>
+
+                </div>
+
+                <div
+                    style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 200px; margin-top: 50px;">
+
+                    <div style="display: flex; flex-direction: column; ">
+                        <label for="City" style="font-size: 100%;"><b>City:</b></label><br>
+                        <select id="City" style="height: 40px; width: 300px; border-radius: 20px; ">
+
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Jamnagar">Jamnagar</option>
+                            <option value="Ahemdabad">Ahemdabad</option>
+                            <option value="Vadodara">Vadodara</option>
+                            <option value="Navasari">Navasari</option>
+                            <option value="Surat">Surat</option>
+
+                        </select>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; ">
+                        <label for="State" style="font-size: 100%;"><b>State:</b></label><br>
+                        <select id="State" style="height: 40px; width: 350px; border-radius: 20px; ">
+
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Goa">Goa</option>
+
+                        </select>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="zip"><b>Zip:</b></label><br>
+                        <input type="number" id="zip" name="zip" value=""
+                            style="height: 35px; width: 300px; border-radius: 20px; " />
+                    </div>
+
+                </div>
+
+
+
+                <div
+                    style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 50px; gap: 130px;">
+
+                    <div style="display: flex; flex-direction: column; ">
+
+                        <p style="font-size: 100%;"><b> Choose your Fav_color: </b></p>
+                        <input type="color" id="color" name="color" value="">
+
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+
+                        <p style="font-size: 100%;"><b> Choose your Fav_language: </b></p>
+
+                        <div style="display: flex; flex-direction: row; gap: 20px;">
+
+                            <input type="radio" id="html" name="Fav_language" value="html">
+                            <lable for="Fav_language" style="font-size: 100%;"><b> HTML </b></lable>
+
+                            <input type="radio" id="css" name="Fav_language" value="css">
+                            <label for="Fav_language" style="font-size: 100%;"><b> CSS </b></label>
+
+                            <input type="radio" id="javascript" name="Fav_language" value="javascript">
+                            <label for="Fav_language" style="font-size: 100%;"><b> Javascript </b></label>
+
+                        </div>
+                    </div>
+
+
+                    <div style="display: flex; flex-direction: column; ">
+
+                        <p style="font-size: 100%;"><b> Choose your Fav_car: </b></p>
+
+                        <div style="display: flex; flex-direction: row; gap: 20px;">
+
+                            <input type="checkbox" id="BMW" name="Fav_car" value="BMW">
+                            <label for="Fav_car" style="font-size: 100%;"><b> BMW </b></label>
+
+                            <input type="checkbox" id="Audi" name="Fast-X-a" value="Audi">
+                            <label for="Fav_car" style="font-size: 100%;"><b> Audi </b></label>
+
+                            <input type="checkbox" id="Kia" name="Fav_car" value="Kia">
+                            <label for="Fav_car" style="font-size: 100%;"><b> Kia </b></label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div style="display: flex; flex-direction: column; ">
+
+                        <label for="file" style="font-size: 100%;"><b> File: </b></label>
+                        <input type="file" id="file" name="file" value="">
+
+                    </div>
+
+                </div>
+
+                <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: flex-start; margin-left: 220px;">
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="user name"><b>User Name:</b></label>
+                        <input type="text" id="user name" name="user name" value="" placeholder="Enter You User Name"
+                            required style="height: 35px; width: 1000px; border-radius: 20px; " />
+                    </div>
+
+                    <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: flex-start;">
+
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="Password"><b>Password:</b></label>
+                            <input type="Password" id="Password" name="user name" value=""
+                                placeholder="Enter You Password" required
+                                style="height: 35px; width: 1000px; border-radius: 20px; " />
+                        </div>
+
+                        <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: flex-start;">
+
+                            <div style="display: flex; flex-direction: column;">
+                                <label for="Password"><b> Confirm Password:</b></label>
+                                <input type="Password" id="Password" name="user name" value=""
+                                    placeholder="Enter You Password" required
+                                    style="height: 35px; width: 1000px; border-radius: 20px; " />
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div
+                    style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 40px;">
+                    <input type="button" value="Submit"
+                        style="background-color: rgb(6, 144, 163); color: white; font-size: 30px;  height: 40px; width: 500px; border-radius: 20px;" />
+                </div>
+
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

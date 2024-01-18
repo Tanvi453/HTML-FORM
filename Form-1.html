@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<htmL>
+
+<head>
+    <title> HTML FORM-1 </title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px black solid;
+        }
+    </style>
+</head>
+
+<body style="background-color: beige;">
+
+    <h1 style="font-size: 40px;"> HTML FORM-1 </h1>
+
+
+    <div style="font-size: 25px;">
+
+        <lable for="Fname"> First Name: </lable>
+        <input type="text" id="Fname" name="Fname" value="" placeholder="Enter Your First Name" required><br><br>
+
+        <label for="Mname"> Middle Name: </label>
+        <input type="text" id="Mname" name="Mname" value="" placeholder="Enter Your Middle Name" required><br><br>
+
+        <lable for="Lname"> Last Name: </lable>
+        <input type="text" id="Lname" name="Lname" value="" placeholder="Enter Your Last Name" min="18"
+            max="60  "><br><br>
+
+        <p> Gender: </p>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="gender"> Male </label>
+ 
+        <input type="radio" id="Feamle" name="gender" value="Female">
+        <label for="gender"> Female </label><br><br>
+
+        <label for="Age"> Age: </label>
+        <input type="number" id="Age" name="Age" value="" placeholder="Enter Your Age" required><br><br>
+
+        <label for="DOB"> Date of Birth: </label>
+        <input type="date" id="DOB" name="DOB" value="" required><br><br>
+
+        <lable for="Address"> Address: </lable>
+        <input type="text" id="Address" name="Address" value="" placeholder="Enter Your Address" required><br><br>
+
+        <label for="city"> Select City: </label>
+        <select id="city">
+
+            <option value="Rajkot"> Rajkot </option>
+            <option value="Ahemdabad"> Ahemdabad </option>
+            <option value="Jamnagar"> Jamnagar </option>
+            <option value="Vadodara"> Vadodara </option>
+            <option value="Navasari"> Navasari </option>
+
+        </select><br><br>
+
+        <lable for="AadharNo"> Aadhar No.: </lable>
+        <input type="number" id="AadharNo" name="AadharNo" value="" placeholder="Enter Your Aadhar No."
+            required><br><br>
+
+        <label for="Password"> Password: </label>
+        <input type="password" id="Password" name="Password" value="" placeholder="Enter Your Password"
+            required><br><br>
+
+        <p> Choose your Fav_color: </p>
+        <label for="Color"> Color: </label>
+        <input type="color" id="Color" name="Color"><br><br>
+
+        <p> Choose your Fav_language: </p>
+        <input type="radio" id="html" name="Fav_language" value="html">
+        <lable for="Fav_language"> HTML </lable>
+
+        <input type="radio" id="css" name="Fav_language" value="css">
+        <label for="Fav_language"> CSS </label>
+
+        <input type="radio" id="javascript" name="Fav_language" value="javascript">
+        <label for="Fav_language"> Javascript </label><br><br>
+
+        <p> Choose your Fav_car: </p>
+        <input type="checkbox" id="BMW" name="Fav_car" value="BMW">
+        <label for="Fav_car"> BMW </label>
+
+        <input type="checkbox" id="Audi" name="Fav_car" value="Audi">
+        <label for="Fav_car"> Audi </label>
+
+        <input type="checkbox" id="Kia" name="Fav_car" value="Kia">
+        <label for="Fav_car"> Kia </label><br><br>
+
+        <label for="File"> File: </label>
+        <input type="file" id="File" name="File" value=""><br><br>
+
+
+    </div>
+
+    <button onclick="Form()">Submit</button>
+
+    <table style="margin-top: 5%;">
+        <thead>
+            <th>First Name:</th>
+            <th>Middle Name:</th>
+            <th>Last Name:</th>
+            <th>Gender</th>
+            <th>Age:</th>
+            <th>Date of Birth:</th>
+            <th>Address:</th>
+            <th>Select City:</th>
+            <th>Aadhar No.:</th>
+            <th>Password:</th>
+            <th>Color:</th>
+            <th>Choose your Fav_language:</th>
+            <th>Choose your Fav_car:</th>
+            <th>File:</th>
+        </thead>
+
+        <tbody id="tbl"></tbody>
+    </table>
+
+    <h1 id="id"></h1>
+
+    <script src="./Form-1.js"></script>
+</body>
+
+</htmL>

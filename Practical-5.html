@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Create account </title>
+    <link rel="icon"
+        href="https://www.pngitem.com/pimgs/m/156-1568237_transparent-contact-icon-png-icon-for-create-user.png" />
+    <style>
+        .name {
+            width: 200px;
+            text-align: center;
+            border: 2 px black solid;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(251, 252, 253);
+            background-size: 40px;
+            background-position: 10px 4px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            border-radius: 20px;
+            background-image: url("https://spng.pngfind.com/pngs/s/378-3780189_member-icon-png-transparent-png.png");
+
+        }
+
+        .name-2 {
+            width: 200px;
+            text-align: center;
+            border: 2 px black solid;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(251, 252, 253);
+            background-size: 40px;
+            background-position: 10px 4px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            border-radius: 20px;
+            background-image: url("https://cdn-icons-png.flaticon.com/512/2594/2594213.png")
+        }
+
+        .name-3 {
+            width: 200px;
+            text-align: center;
+            border: 2 px black solid;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(251, 252, 253);
+            background-size: 40px;
+            background-position: 10px 4px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            border-radius: 20px;
+            background-image: url("https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/password-512.png")
+        }
+
+        table,
+        td,
+        th {
+            border: 1px black solid;
+        }
+
+        ::placeholder {
+            color: rgb(208, 205, 205);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div
+        style="background-color: rgb(205, 238, 254); height: 900px; width: 1300px; border-radius: 50px; display: flex; gap: 50px; justify-content: space-evenly; align-items: center; ">
+        <form action="file:///C:/Users/DREAMWORLD/Documents/HTML%20BATCH-1/prectical-5.html" style="padding: 50px;">
+            <h1 style="color: rgb(199, 7, 170);"> Create New Account </h1><br><br>
+
+            <div>
+                <label for="Uname">
+                </label>
+                <input class="name" type="text" id="Uname" name="Uname" value="" placeholder="User Name "
+                    style="height: 30px; width: 300px;" />
+            </div><br>
+
+            <div>
+                <input class="name-2" type="text" id="Email" name="Email" value="" placeholder="......@gmail.com"
+                    style="height: 30px; width: 300px;" />
+            </div><br>
+
+            <div>
+                <label for="password">
+
+                    <input class="name-3" type="password" id="password" name="password" value="" placeholder="password"
+                        style="height: 30px; width: 300px;" />
+                </label>
+            </div><br>
+
+            <input type="checkbox" value="" />
+            <label for="text"> I Agree. </label><br><br>
+
+            <input onclick="Form()" type="button" value="Create New Account"
+                style=" background-color: rgb(248, 14, 201); height: 60px; width: 200px; border-radius: 30px ; color: rgb(253, 253, 253);" />
+
+
+        </form>
+
+        <div
+            style="background-color: rgb(246, 17, 216); color: rgb(251, 252, 253);  height: 800px; width:700px; border-radius: 50px; display: flex; justify-content: center; align-items: flex-start; flex-direction: column; padding: 50px;">
+            <h1> Hello World! </h1>
+
+            <p>A "Hello, world!" program is a computer program that outputs or displays "Hello, world!"" to a user.
+                Being
+                a very simple program in most programming languages, it is often used to illustrate the basic syntax of
+                a programming language for a working program, and as such is often the very first program people write.
+            </p>
+
+            <input type="button" value="Search More"
+                style="height: 60px; width: 200px; border-radius: 30px; background-color: rgb(246, 13, 218); color: rgb(253, 253, 254);" />
+        </div>
+
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+
+        <table style="margin-top: 50px;">
+
+            <thead>
+                <th>User Name:</th>
+                <th>E-mail</th>
+                <th>Password:</th>
+            </thead>
+
+            <tbody id="tbl"></tbody>
+
+        </table>
+        
+    </div>
+
+
+    <script src="./Practical-5.js"></script>
+</body>
+
+</html>

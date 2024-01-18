@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Login Page </title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px black solid;
+            padding: 10px;
+        }
+    </style>
+
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2250/2250092.png" />
+</head>
+
+<body style="display: flex;flex-direction: column; align-items: center; margin-top: 75px;">
+
+    <div
+        style="background-color: black; height: 750px; width: 1200px; display: flex; justify-content: center; align-items: center;flex-direction: column; ">
+
+        <div style="display: flex; flex-direction: row; justify-content: center; align-items:  center;">
+            <div
+                style="background: linear-gradient(140deg, rgb(234, 164, 253), rgb(146, 2, 165)); height: 750px; width: 1185px; display: flex; justify-content: center; align-items: center;flex-direction: row;  ">
+
+                <div style="display: flex; flex-direction: column;  text-align: center; ">
+
+                    <div style="color: white; font-size: 205%; ">
+                        <h1><b>MODERN LOGIN PAGE</b></h1>
+                    </div>
+
+                    <div
+                        style="background-color: black; height: 100px; width: 500px; color: yellow; display: flex; justify-content: center;align-items: center; text-align: center; font-size: 190%;">
+                        <h4><b>USING HTML & CSS WITH SOURCE CODE</b></h4>
+                    </div>
+
+                </div>
+
+
+                <div
+                    style="background-color: white; height:500px; width: 800px; border-radius: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; margin: 100px; margin-top: 50px; ">
+                    <h1><b>Sign In</b></h1><br><br>
+
+                    <label for="E-mail"><b></b></label>
+                    <input type="text" id="Email" name="Email" value="" placeholder="E-mail"
+                        style="height: 40px; width: 400px; border-radius: 20px; box-shadow: 3px 3px;"
+                        required /><br><br>
+
+                    <label for="password"><b></b></label>
+                    <input type="password" id="password" name="password" value="" placeholder="password"
+                        style="height: 40px; width: 400px; border-radius: 20px; box-shadow: 3px 3px;"
+                        required /><br><br>
+
+                    <div
+                        style="display: flex; justify-content: flex-end; align-items: flex-start; flex-direction: row; gap: 250px; ">
+
+                        <div>
+                            <input type="checkbox" id="I Agree" name="I Agree" value="" required />
+                            <label for="I Agree"> I Agree </label>
+                        </div>
+
+                        <div>
+                            <a
+                                href="https://www.google.co.in/search?q=forgot+password+link&source=lmns&hl=en&sa=X&ved=2ahUKEwjQmpvb7Nn_AhVsh2MGHb02DhkQ_AUoAHoECAEQAA">Forgot
+                                Password?</a>
+                        </div>
+
+                    </div><br><br>
+
+                    <div style="display: flex; justify-content: center; flex-direction: row;">
+                        <input onclick="Form()" type="button" value="Sign In"
+                            style="background: linear-gradient(140deg, rgb(234, 164, 253), rgb(114, 3, 129)); height: 30px; width: 300px; border-radius: 20px;" />
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <table class="table table-striped" style="margin-top: 10%;">
+        <thead>
+            <th>E-mail:</th>
+            <th>Password:</th>
+        </thead>
+        <tbody id="tbl"></tbody>
+    </table>
+
+    <script src="./Practical-10.js"></script>
+</body>
+
+</html>

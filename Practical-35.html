@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> HTML FORM </title>
+    <link rel="icon" href="https://www.seekpng.com/png/detail/188-1882776_form-icon-form-icon-png.png">
+    <style>
+        ::placeholder {
+            color: black;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: url(https://wallpapercave.com/wp/wp7696648.jpg); background-size: cover; display: flex; justify-content: flex-end;">
+
+    <div style="text-align: center; margin: auto;">
+        <h1 style="color: rgb(138, 103, 4); font-size: 800%;">
+            Give Your Information For Registration
+        </h1>
+    </div>
+
+    <div style=" display: flex; flex-direction: column; align-items: center; gap: 30px;  padding: 10px;">
+
+        <div style="display: flex; justify-content: center;">
+            <h1 style="color: rgb(110, 81, 3); font-size: 300%; "><b>Register Here</b></h1>
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 50px;  margin-top: -4%;">
+
+            <div style="display: flex; flex-direction: column; gap: 10px; ">
+                <label for="First Name" style="color: rgb(138, 103, 4);  font-size: 150%;"><b>First Name:</b></label>
+                <input type="text" id="First Name" name="First Name" value="" placeholder="Enter your First Name"
+                    style="height: 30px; width: 300px; border-radius: 5px; background-color: transparent;">
+
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+
+                <label for="Last Name" style="color: rgb(138, 103, 4); font-size: 150%;"><b>Last Name:</b></label>
+                <input type="text" id="Last Name" name="Last Name" value="" placeholder="Enter your Last Name"
+                    style=" height: 30px; width: 300px; border-radius: 5px; background-color: transparent;">
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 150px;">
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+
+                <label for="Age" style="color: rgb(138, 103, 4); font-size: 150%;"><b>Age:</b></label>
+                <input type="number" id="Age" name="Age" value="" placeholder="Enter your Age" minlength="18"
+                    maxlength="60"
+                    style=" height: 30px; width: 200px; border-radius: 5px; background-color: transparent;">
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+                <label for="DOB" style="color: rgb(138, 103, 4);  font-size: 150%;"><b>Date Of Birth:</b></label>
+                <input type="date" id="DOB" name="DOB" value="" placeholder="Enter your DOB"
+                    style=" height: 30px; width: 300px; border-radius: 5px; background-color: transparent;">
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            <label for="Address" style="color: rgb(138, 103, 4);  font-size: 150%;"><b>Address:</b></label>
+            <input type="text" id="Address" name="Address" value="" placeholder="Enter your Address"
+                style="height: 50px; width: 650px; border-radius: 5px; background-color: transparent;">
+
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 50px;">
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+
+                <label for="city" style="color: rgb(138, 103, 4);  font-size: 150%;"><b>Select City:</b></label>
+                <select id="city"
+                    style=" height: 30px; width: 300px; border-radius: 5px; background-color: transparent">
+                    <option value="Rajkot"> Rajkot </option>
+                    <option value="Gandhinagar"> Gandhinagar </option>
+                    <option value="vadodara"> Vadodara </option>
+                    <option value="Ahemdabad"> Ahemdabad </option>
+                    <option value="Navsari"> Navsari </option>
+                    <option value="Jamnagar"> Jamnagar </option>
+                </select>
+
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+
+                <label for="state" style="color: rgb(138, 103, 4);  font-size: 150%;"><b>Select State:</b></label>
+                <select id="state"
+                    style=" height: 30px; width: 300px; border-radius: 5px; background-color: transparent;">
+                    <option value="Rajkot"> Gujrat</option>
+                    <option value="Gandhinagar"> Kuchh </option>
+                    <option value="vadodara"> Maharashtra </option>
+                    <option value="Ahemdabad"> Punjab </option>
+                    <option value="Navsari"> Rajsthan </option>
+                    <option value="Jamnagar"> Madhya Pradesh </option>
+                    <option value="Ahemdabad"> Uttar Pradesh </option>
+                    <option value="Navsari"> Himachal Pradesh </option>
+                    <option value="Jamnagar"> Karnatak </option>
+                    <option value="Kerla"> Kerla </option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 40px;">
+
+            <div style="display: flex; flex-direction: row;  gap: 2px; font-size: 150%;">
+                <label for="gender" style="color: rgb(138, 103, 4);  "><b> Gender: </b></label>
+
+                <input type="radio" id="Male" name="Gender" value="" />Male
+                <input type="radio" id="Female" name="Gender" value="" />Female
+            </div>
+
+            <div style="display: flex; flex-direction: row; gap: 2px; font-size: 150%;">
+
+                <label for="cast" style="color: rgb(138, 103, 4);"> <b> Cast: </b></label>
+                <input type="radio" id="SC" name="cast">SC
+                <input type="radio" id="ST" name="cast">ST
+                <input type="radio" id="OBC" name="cast">OBC
+                <input type="radio" id="GENERAL" name="cast">GENERAL
+            </div>
+
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 40px;">
+
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+
+                <label for="E-mail" style="color: rgb(138, 103, 4);  font-size: 150%;"><b>E-mail Id:</b></label>
+                <input type="text" id="E-mail" name="E-mail" value="" placeholder="Enter your E-mail"
+                    style="height: 30px; width: 300px; border-radius: 5px; background-color: transparent;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+
+                <label for="Password" style="color: rgb(138, 103, 4); font-size: 150%;"><b>Password</b></label>
+                <input type="Password" id="Password" name="Password" value="" placeholder="Enter your Password"
+                    style="height: 30px; width: 300px; border-radius: 5px; background-color: transparent;" />
+            </div>
+
+        </div>
+
+        <div>
+            <input type="button" value="Submit"
+                style="height: 40px; width: 200px; border-radius: 10px; background-color: rgb(138, 103, 4);  color: rgb(10, 10, 10); font-size: 150%;">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

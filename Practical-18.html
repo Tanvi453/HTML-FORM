@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML FORM-3</title>
+    <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/fill-up-form-2133614-1795238.png" />
+</head>
+
+<body
+    style="display: flex; align-items: center; flex-direction: column; background-image: url(https://static.vecteezy.com/system/resources/previews/005/572/340/original/foggy-landscape-forest-in-the-morning-beautiful-sunrise-mist-cover-mountain-background-at-countryside-winter-free-photo.jpg);">
+
+    <div style="gap: 50px;">
+        <h1><b>HTML FORM -3</b></h1>
+    </div>
+
+    <div style="display: flex; flex-direction: column; ">
+
+        <div style="display: flex; flex-direction: row; gap: 50px;">
+
+            <div style="display: flex; flex-direction: column;">
+                <label for="First Name"><b>First Name:</b></label>
+                <input type="text" id="First Name" name="First Name" value="" placeholder="Enter Your First Name"
+                    required style="height: 40px; width: 500px; border-radius: 10px;" />
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <label for="Last Name"><b>Last Name:</b></label>
+                <input type="text" id="Last  Name" name="Last  Name" value="" placeholder="Enter Your Last  Name"
+                    required style="height: 40px; width: 500px; border-radius: 10px;" />
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; gap: 50%; margin-top: 50px;">
+
+            <div style="display: flex; flex-direction: column;">
+
+                <label for="Gender"><b>Gender:</b></label>
+
+                <div style="display: flex; flex-direction: row;">
+                    <input type="radio" id="Male" name="Gender" value="" required />Male
+                    <input type="radio" id="Female" name="Gender" value="" required />Female
+                </div>
+
+            </div>
+
+
+            <div style="display: flex; flex-direction: column;">
+                <label for="age"><b>Age:</b></label>
+                <input type="number" id="age" name="age" placeholder="Enter your Age" required
+                    style="height: 40px; width: 300px; border-radius: 10px;" />
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; gap: 100px; margin-top: 50px;">
+
+        <div style="display: flex; flex-direction: column;">
+            <label for="DOB"><b>Date of Birth:</b></label>
+            <input type="date" id="DOB" name="DOB" value="" required
+                style="height: 40px; width: 500px; border-radius: 10px;" />
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+            <label for="Aadhar no."><b>Aadhar Number:</b></label>
+            <input type="number" id="Aadhar no." name="Aadhar no." value="" placeholder="Enter Your Aadhar Number"
+                required style="height: 40px; width: 500px; border-radius: 10px;" />
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; gap: 400px; margin-top: 50px;">
+
+        <div style="display: flex; flex-direction: column; margin-top: 15px;">
+
+            <label for="color"><b>Choose your Fav_color:</b></label>
+            <input type="color" id="color" name="color" value="">
+
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+
+            <p><b> Choose your Fav_language: </b></p>
+
+            <div style="display: flex; flex-direction: row;">
+                <input type="radio" id="html" name="Fav_language" value="html">
+                <lable for="Fav_language"> HTML </lable>
+
+                <input type="radio" id="css" name="Fav_language" value="css">
+                <label for="Fav_language"> CSS </label>
+
+                <input type="radio" id="javascript" name="Fav_language" value="javascript">
+                <label for="Fav_language"> Javascript </label>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div style="display: flex; flex-direction: row; gap: 100px; margin-top: 50px;">
+
+        <div style="display: flex; flex-direction: column;">
+
+            <lable for="Address"><b> Address: </b></lable>
+            <input type="text" id="Address" name="Address" value="" placeholder="Enter your Address" required
+                style="height: 40px; width: 500px; border-radius: 10px;" />
+
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+
+            <label for="city"><b> Select City: </b></label>
+            <select id="city" style="height: 40px; width: 500px; border-radius: 10px;">
+
+                <option value="Rajkot"><b> Rajlot </option>
+                <option value="Ahemdabad"> Ahemdabad </option>
+                <option value="Jamnagar"> Jamnagar </option>
+                <option value="Vadodara"> Vadodara </option>
+                <option value="Navasari"> Navasari </option>
+
+            </select>
+        </div>
+
+    </div>
+
+    <div style="display: flex; flex-direction: column; margin-top: 50px;">
+        <label for="password"><b>Password:</b></label>
+        <input type="text" id="password" name="password" value="" placeholder="Enter your Password" required
+            style="height: 40px; width: 500px; border-radius: 10px;" />
+    </div>
+
+    <div style="display: flex; flex-direction: column; margin-top: 50px;">
+        <label for="password"><b> ConfirmPassword:</b></label>
+        <input type="text" id="password" name="password" value="" placeholder="Enter your Password" required
+            style="height: 40px; width: 500px; border-radius: 10px;" />
+    </div>
+
+    <div style="margin-top: 30px;">
+        <input type="button" value="Submit"
+            style="height: 40px; width: 300px; border-radius: 20px; background-color: rgb(205, 135, 5); color: white; font-size: 150%;" />
+    </div>
+</body>
+
+</html>
